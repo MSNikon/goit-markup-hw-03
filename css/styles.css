@@ -216,8 +216,6 @@ gap: 24px;
         display: flex;
 }
 
-/*section 3*/
-
 .page-section-three{
     background:#F4F4FD;
     padding: 120px 0;
@@ -272,7 +270,6 @@ gap: 24px;
             color: #434455;
   }
 
-/*#end region section 3*/
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
