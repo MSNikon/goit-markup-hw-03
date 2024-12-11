@@ -42,6 +42,12 @@ body{
        overflow: hidden;
    }
 
+   img {
+       display: block;
+       max-width: 100%;
+       height: auto;
+   }
+
    .page-header{
     border-bottom: 1px solid #e7e9fc;
    }
@@ -129,10 +135,9 @@ body{
 .page-main {
    background: #2e2f42;
    display: block;
-   width: 1440px;
-   height: 600px;
    margin-left: auto;
    margin-right: auto;
+   padding: 188px 0
 }
 
 
@@ -178,7 +183,7 @@ body{
     padding-bottom: 120px;
 }
 
-.List-description{
+.list-description{
 display: flex;
 align-items: center;
 height: 104px;
@@ -216,6 +221,7 @@ gap: 24px;
 .page-section-three{
     background:#F4F4FD;
     padding: 120px 0;
+    margin-bottom: 8px
 }
 
 .section-team{
@@ -270,6 +276,7 @@ gap: 24px;
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-bottom: 72px;
 }
 
 .list-portfolio{
